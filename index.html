@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple JavaScript Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<div class="container">
+<form name="quizForm">
+<div>
+<header class="header">
+    <h1>Simple JavaScript Quiz</h1>
+    <p>Test your knowledge in <strong>JavaScript fundamentals</strong></p>
+</header>
+<hr/>
+<section>
+<div id="results"></div>
+<p>1. In which HTML element do we put in JavaScript code?</p> 
+    <div>
+        <input type="radio" name="question1" id="question1" value="js">
+        <label for="question1">a. &lt;js&gt; </label>
+    </div>
+    <div>
+        <input type="radio" name="question1" id="question1" value="script" >
+        <label for="question1">b. &lt;script&gt; </label>
+    </div>
+    <div>
+        <input type="radio" name="question1" id="question1" value="body" >
+        <label for="question1">c. &lt;body&gt; </label>
+    </div>
+    <div>
+        <input type="radio" name="question1" id="question1" value="link" >
+        <label for="question1">d. &lt;link&gt; </label>
+    </div>
+</div>
+<div>
+    <p>2. Which HTML attribute is used to reference an external JavaScript file?</p>
+    <div>
+        <input type="radio" name="question2" id="question2" value="src">
+        <label for="question2">a. src</label>
+    </div>
+    <div>
+        <input type="radio" name="question2" id="question2" value="rel">
+        <label for="question2">b. rel</label>
+    </div>
+    <div>
+        <input type="radio" name="question2" id="question2" value="type">
+        <label for="question2">c. type</label>
+    </div>
+    <div>
+        <input type="radio" name="question2" id="question2" value="href">
+        <label for="question2">d. href </label>
+    </div>
+</div>
+<div>
+    <p>3. How would you write "Hello" in an alert box?</p>
+    <div>
+        <input type="radio" name="question3" id="question3" value="msg">
+        <label for="question3">a. msg("Hello"); </label>
+    </div>
+    <div>
+        <input type="radio" name="question3" id="question3" value="alertBox">
+        <label for="question3">b. alertBox("Hello");  </label>
+    </div>
+    <div>
+        <input type="radio" name="question3" id="question3" value="document">
+        <label for="question3">c. document.write("Hello");  </label>
+    </div>
+    <div>
+        <input type="radio" name="question3" id="question3" value="alert">
+        <label for="question3">d. alert("Hello");  </label>
+    </div>
+</div>
+<div>
+    <p>4. JavaScript is directly related to the "Java" programming language</p>
+    <div>
+        <input type="radio" name="question4" id="question4" value="true">
+        <label for="question4">a. true </label>
+    </div>
+    <div>
+        <input type="radio" name="question4" id="question4" value="false">
+        <label for="question4">b. false </label>
+    </div>
+</div>
+<div>
+    <p>5. A variable in JavaScript must start with which special character</p>
+    <div>
+        <input type="radio" name="question5" id="question5" value="at">
+        <label for="question5">a. &#64; </label>
+    </div>
+    <div>
+        <input type="radio" name="question5" id="question5" value="dollar">
+        <label for="question5">b. &#36; </label>
+    </div>
+    <div>
+        <input type="radio" name="question5" id="question5" value="hash">
+        <label for="question5">c. &#35; </label>
+    </div>
+    <div>
+        <input type="radio" name="question5" id="question5" value="none">
+        <label for="question5">d. No Special Character </label>
+    </div>
+</div>
+<br>
+<button type="submit">Submit Answers</button>
+</form>
+</section>
+<footer>
+    <p>Copyright &copy; 2019. Made with ❤ in Memphis.</p>
+</footer>
+</div> <!--container-->    
+<script src="scripts/app-v2.js"></script> 
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color:#f06226;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: #199fdb;
+    overflow: auto;
+    
+}
+
+header, footer {
+    text-align: center;
+}
+
+span {
+    color: black;
+}
+
+form {
+    padding: 5%;
+}
+
+button[type='submit'] {
+    background: #f06226;
+    border: 0;
+    color: #fff;
+    padding: 10px 15px;
+    cursor:pointer;
+}
+
+#results h3{
+  background: #f06226;
+  padding: 10px;
+  margin: 10px 0;  
+}
